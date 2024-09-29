@@ -1,0 +1,106 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light background for contrast */
+}
+
+/* Header styles */
+header {
+    background: #60bdd4; /* Dark background for header */
+    color: #04325a; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+}
+
+nav ul li {
+    display: inline; /* Horizontal list items */
+    margin: 0 15px; /* Spacing between items */
+}
+
+nav a {
+    color: #FFFFFF; /* White link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 40px; /* Space between sections */
+}
+
+h2 {
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+/* Table styles for projects section */
+table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Merge borders */
+}
+
+table th,
+table td {
+    border: 1px solid #000000; /* Light gray borders */
+    padding: 10px; /* Cell padding */
+    text-align: left; /* Left align text */
+}
+
+table th {
+    background-color: #000000; /* Light gray background for header cells */
+}
+
+/* Form styles for contact section */
+form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+}
+
+form label {
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"] {
+    padding: 10px; /* Input padding */
+    margin-bottom: 15px; /* Space below inputs */
+    border-radius: 5px; /* Rounded corners for inputs */
+    border: 1px solid #CCCCCC; /* Light gray border for inputs */
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    background-color: #333333; /* Dark background for button */
+    color: #FFFFFF; /* White text color on button */
+    border: none; /* Remove default border */
+    padding: 10px;
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+input[type="submit"]:hover {
+    background-color: #555555; /* Darker shade on hover */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333333; /* Dark background for footer */
+    color: #FFFFFF; /* White text color in footer */
+}
